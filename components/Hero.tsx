@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
+import { RainbowHighlight } from './ui/RainbowHighlight'
+import { RoughNotationGroup } from 'react-rough-notation'
 //import index.ts for text
 
 
@@ -7,33 +9,32 @@ const Hero = () => {
     const heroHeader = "The Intersection of Code and Capture"
 
     const heroText = "Hi 👋, I'm Dhruva, a high school senior on a journey in photography and software development. I am based in Dallas, Texas but provide photography in both Dallas and Broken Bow, Oklahoma."
+    const colors = ["#87CEFA", "#4169E1"]
 
   return (
-    <section className='w-full py-24'>
-        <div className='container max-w px-4 md:px-8 text-center flex-col max-w-[900px]'>
-            <h1 className='my-4 text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl'>{heroHeader}</h1>
-            
-            <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">{heroText}</p>
-
-            <div className="flex justify-center gap-4 py-8">
-            <Link
-              href="#"
-              className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              prefetch={false}
-            >
-              Contact
-            </Link>
-            <Link
-              href="#"
-              className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-              prefetch={false}
-            >
-              See My Work
-            </Link>
-          </div>
+    <section className='w-full py-24 bg-gray-900'>
+        <div className='container px-4 md:px-8 text-center flex-col max-w-[1200px] bg-gray-900'>
+        <div className="flex flex-wrap justify-center items-center text-center py-4">
+            <h1 className='mr-2 text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl'>The Intersection of</h1>
+            <RoughNotationGroup show={true}>
+                <RainbowHighlight color={colors[0]}>
+                <h1 className="mr-2 text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl">
+                    Code
+                </h1>
+                </RainbowHighlight>
+            </RoughNotationGroup>
+            <h1 className='mr-2 text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl'>and</h1>
+            <RoughNotationGroup show={true}>
+                <RainbowHighlight color={colors[1]}>
+                <h1 className="mr-2 text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl">
+                    Capture
+                </h1>
+                </RainbowHighlight>
+            </RoughNotationGroup>
+        </div>
+            <p className="mx-auto text-muted-foreground text-xl md:text-2xl">{heroText}</p>
         </div>
 
-        
         
     </section>
   )
