@@ -1,14 +1,14 @@
 import Hero from "@/components/Hero";
+import HomeGrid from "@/components/HomeGrid";
 import Navbar from "@/components/Navbar";
-import Projects from "@/components/Projects";
+
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
+    <main >
       <Hero />
-      <Projects />
+      <HomeGrid />
     </main>
   );
 }

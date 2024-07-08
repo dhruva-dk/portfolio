@@ -12,7 +12,7 @@ const Hero = () => {
     const colors = ["#87CEFA", "#4169E1"]
 
   return (
-    <section className='w-full py-24'>
+    <section className='w-full py-24 bg-black'>
         <div className='container px-4 md:px-8 text-center flex-col max-w-[1200px]'>
         <div className="flex flex-wrap justify-center items-center text-center py-4">
             <h1 className='mr-2 text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl'>The Intersection of</h1>
