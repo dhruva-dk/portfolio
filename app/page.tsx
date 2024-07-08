@@ -1,6 +1,7 @@
-import Hero from "@/components/Hero";
-import HomeGrid from "@/components/HomeGrid";
-import Navbar from "@/components/Navbar";
+
+
+import Hero from "@/components/homepage/Hero";
+import HomeGrid from "@/components/homepage/HomeGrid";
 
 import Image from "next/image";
 
