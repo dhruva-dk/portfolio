@@ -36,28 +36,35 @@ const userData = {
     ],
     about: {
       title:
-        "",
+        "High School Senior interested in Full Stack Development and Real Estate Photography",
       description: [
-        ""
+        "Hi 👋, I'm Dhruva, a high school senior on a journey in photography and software development. I am based in Dallas, Texas but provide photography in both Dallas and Broken Bow, Oklahoma."
       ],
       //currentProject: "Tailwind Master Kit",
       //currentProjectUrl: "https://tailwindmasterkit.com",
     },
     experience: [
-    
+      
       {
         title: "Intern",
         company: "Sagiss",
         year: "2024",
         companyLink: "sagiss.com",
-        desc: "Took client calls and created team reports using SQL and Power BI",
+        desc: "Took client calls and created team reports using SQL and Power BI.",
       },
       {
         title: "Math Instructor",
         company: "Mathnasium KV",
         year: "2023-2024",
         companyLink: "mathnasium.com",
-        desc: "Instructed up 4 students per hour on Math topics from Grades 1-10",
+        desc: "Instruct up 4 students per hour on Math topics from Grades 1-10.",
+      },
+      {
+        title: "Web Designer",
+        company: "Sunrise Rental Cottages",
+        year: "2023-2024",
+        companyLink: "sunriserentalcottages.com",
+        desc: "Design and Maintain a booking website for a short term rental company.",
       },
       
     ],
