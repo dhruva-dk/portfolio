@@ -1,18 +1,38 @@
 const userData = {
-    githubUsername: "manuarora700",
-    name: "Manu Arora",
-    designation: "Full-Stack Developer",
-    avatarUrl: "/avatar.png",
-    email: "manuarorawork@gmail.com",
-    phone: "+91 9587738861",
-    address: "Jaipur, Rajasthan, India.",
+    githubUsername: "subbuguru",
+    name: "Dhruva Kumar",
+    designation: "Aspiring Full Stack Developer & Real Estate Photographer",
+    //avatarUrl: "/avatar.png",
+    email: "dhruvakumar2025@gmail.com",
+    phone: "+1 (469) 451-0456",
+    address: "Coppell, Texas, United States",
     projects: [
       
       {
         title: "My Meds - Personal Meds List",
         link: "https://devmedium.vercel.app",
-        imgUrl: "/devmedium.png",
+        imgUrl: "/mymeds.png",
+        technologies: "Flutter, SQLite"
       },
+      {
+        title: "Chat App",
+        link: "https://devmedium.vercel.app",
+        imgUrl: "/chat.png",
+        technologies: "Flutter, Firebase"
+      },
+      {
+        title: "DevMedium - Blogging Platform",
+        link: "sunriserentalcottages.com",
+        imgUrl: "/sunriserental.png",
+        technologies: "Webflow"
+      },
+      {
+        title: "Little Fox Getaways",
+        link: "https://lfgetaways.com",
+        imgUrl: "/lfg.png",
+        technologies: "Webflow"
+      },
+
     ],
     about: {
       title:
@@ -33,7 +53,7 @@ const userData = {
         desc: "Took client calls and created team reports using SQL and Power BI",
       },
       {
-        title: "",
+        title: "Math Instructor",
         company: "Mathnasium KV",
         year: "2023-2024",
         companyLink: "mathnasium.com",
@@ -45,8 +65,8 @@ const userData = {
       "https://drive.google.com/file/d/1EQA6AfxprOjX08u7L17LW-p9gz6cJFA9/view?usp=sharing",
     socialLinks: {
 
-      linkedin: "https://linkedin.com/in/manuarora28",
-      github: "https://github.com/manuarora700",
+      linkedin: "https://www.linkedin.com/in/dhruva-kumar-dk/",
+      github: "https://github.com/subbuguru",
 
     },
   };

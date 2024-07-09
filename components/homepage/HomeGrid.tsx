@@ -4,7 +4,7 @@ import HomeCard from "./HomeCard"
 
 export default function HomeGrid() {
   return (
-    <div className="text-foreground p-6 md:p-12">
+    <div className="text-foreground p-12 ">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* home cards for experience, projects, real estate photography, wildlife photography */}
