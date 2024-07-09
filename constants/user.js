@@ -38,7 +38,20 @@ const userData = {
       title:
         "High School Senior interested in Full Stack Development and Real Estate Photography",
       description: [
-        "Hi 👋, I'm Dhruva, a high school senior on a journey in photography and software development. I am based in Dallas, Texas but provide photography in both Dallas and Broken Bow, Oklahoma."
+      `I'm a driven junior at Cistercian Preparatory School with a passion for math and technology. My experience spans several areas:`,
+      ``,
+      `- Software Development: Proficient in Flutter development, building applications using Firebase and Github. Skilled in Java and Dart, with additional experience in Python and C#.`,
+      ``,
+      ``,
+      `- Web Development: Experienced in no-code platforms like Webflow & currently learning React and Next.js.`,
+      ``,
+      `- Photography: Skilled in event and real estate photography, having built a small business serving cabin owners in Broken Bow, Oklahoma.`,
+      ``,
+      `Outside of tech, I'm an avid violinist with 7 years of experience. I also enjoy managing my freshwater aquarium and building custom PCs.`,
+      ``,
+      `I find joy in working through complex concepts and helping others, as the process reinforces my own knowledge. Always looking to learn and grow, I approach each new challenge with dedication and an analytical mindset.`,
+
+
       ],
       //currentProject: "Tailwind Master Kit",
       //currentProjectUrl: "https://tailwindmasterkit.com",
