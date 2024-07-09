@@ -2,14 +2,15 @@
 import React from 'react'
 import { RainbowHighlight } from '../ui/RainbowHighlight'
 import { RoughNotationGroup } from 'react-rough-notation'
+import userData  from '@/constants/user'
 //import index.ts for text
 
 
 const Hero = () => {
 
 
-    const heroText = "Hi 👋, I'm Dhruva, a high school senior on a journey in photography and software development. I am based in Dallas, Texas but provide photography in both Dallas and Broken Bow, Oklahoma."
-    const colors = ["#87CEFA", "#4169E1"]
+    const heroText: string = userData.about.description[0]
+    const colors: string[] = ["#87CEFA", "#4169E1"]
 
   return (
     <section className='w-full py-24'>
