@@ -8,7 +8,10 @@ const Footer = () => {
       <div className='w-1/4 justify-center'>
         <h1 className="text-xl font-bold">{userData.name}</h1>
       </div>
-      <p className="text-sm flex-grow text-gray-400">Powered by Next.js & Shadcn/ui</p>
+      <div className='flex-col items-center text-center justify-center'>
+        <p className="text-sm flex-grow text-gray-400">Powered by Next.js & Shadcn/ui</p>
+        <p className="text-sm flex-grow text-gray-400">Inspired by Manu Arora</p>
+      </div>
       <div className="w-1/4 space-x-4 flex flex-row items-center justify-center">
             <a
               href={userData.socialLinks.linkedin}

@@ -10,27 +10,32 @@ const userData = {
       
       {
         title: "My Meds - Personal Meds List",
-        link: "https://devmedium.vercel.app",
+        link: "https://github.com/subbuguru/medication_tracker",
         imgUrl: "/mymeds.png",
-        technologies: "Flutter, SQLite"
+        technologies: "Flutter, SQLite",
+        description: "A privacy-centric application made in Flutter to keep track of personal medications. Uses SQLite for local storage."
+      },
+      
+      {
+        title: "Sunrise Rental Cottages",
+        link: "https://sunriserentalcottages.com",
+        imgUrl: "/sunriserental.png",
+        technologies: "Webflow",
+        description: "A website for my parents' vacation cabin rental company. Made in Webflow-my first ever website."
       },
       {
         title: "Chat App",
-        link: "https://devmedium.vercel.app",
+        link: "https://github.com/subbuguru/chat_app",
         imgUrl: "/chat.png",
-        technologies: "Flutter, Firebase"
-      },
-      {
-        title: "DevMedium - Blogging Platform",
-        link: "sunriserentalcottages.com",
-        imgUrl: "/sunriserental.png",
-        technologies: "Webflow"
+        technologies: "Flutter, Firebase",
+        description: "A chat application made in Flutter using Firebase for authentication and Firestore for the database."
       },
       {
         title: "Little Fox Getaways",
         link: "https://lfgetaways.com",
         imgUrl: "/lfg.png",
-        technologies: "Webflow"
+        technologies: "Webflow",
+        description: "A website for a vacation cabin rental company. Made in Webflow with some custom Javascript."
       },
 
     ],
@@ -38,7 +43,7 @@ const userData = {
       title:
         "High School Senior interested in Full Stack Development and Real Estate Photography",
       description: [
-      `I'm a driven junior at Cistercian Preparatory School with a passion for math and technology. My experience spans several areas:`,
+      `I'm a driven high school senior at Cistercian Preparatory School with a passion for math and technology. My experience spans several areas:`,
       ``,
       `- Software Development: Proficient in Flutter development, building applications using Firebase and Github. Skilled in Java and Dart, with additional experience in Python and C#.`,
       ``,

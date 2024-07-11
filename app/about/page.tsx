@@ -120,7 +120,7 @@ const About = () => {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/flutter.svg" alt="Flutter icon"className='h-20 w-20 mx-4 my-4'/>
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/flutter.svg" alt="Flutter icon"className='h-20 w-20 mx-4 my-4 dark:invert'/>
 
             </div>
           </div>
