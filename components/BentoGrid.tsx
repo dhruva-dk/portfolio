@@ -42,18 +42,18 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 rounded group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
+        "row-span-1 rounded-md group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
         className
       )}
     >
-      <div className="max-w-[100%] h-60 md:h-72 lg:h-96 overflow-hidden"> {/*Set a fixed max width / height in div, then you can set whatever img size you want in next js it will only go to fill its container
+      <div className="max-w-[100%] relative w-full aspect-[16/9] overflow-hidden"> {/*Set a fixed max width / height in div, then you can set whatever img size you want in next js it will only go to fill its container
                                                             */}
         <Link href={`${link}`} rel="noopener noreferrer" target="_blank">
             <Image
                 src={`${imgUrl}`}
                 alt="project.title"
-                width={500}
-                height={320}
+                width={600}
+                height={600}
                 style={{ objectFit: 'cover', width: '100%', height: '100%', borderRadius: '0.25rem'}}
             />
         </Link>
