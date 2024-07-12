@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="w-1/4">
           <Link className='block text-left' href="/">
             <h1 className="text-xl font-bold">{userData.name}</h1>
-            <p className="text-sm text-gray-400">Developer & Photographer</p>
+            <p className="hidden md:visible text-sm text-gray-400">Developer & Photographer</p>
           </Link>
         </div>
         <div className="flex-grow text-center hidden md:block">
