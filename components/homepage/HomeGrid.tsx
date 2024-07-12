@@ -18,7 +18,7 @@ export default function HomeGrid() {
           <Card className=" min-h-[200px] flex flex-col justify-between">
             <CardHeader>
               <CardTitle className="text-xl">Contact Me</CardTitle>
-              <CardDescription className="text-sm h-12">Have any questions? Get in touch for collaborations or inquiries</CardDescription>
+              <CardDescription className="text-sm h-12">Have any questions? Get in touch for collaborations or inquiries.</CardDescription>
             </CardHeader>
             <CardContent>
               <ContactButton />
