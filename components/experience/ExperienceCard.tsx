@@ -12,8 +12,8 @@ interface ExperienceCardProps {
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ title, desc, year, company, companyLink }) => {
     return (
         
-      <div className="relative border bg-white dark:bg-black p-4 border-muted rounded-md shadow-xl  z-10 mx-4 max-w-[500px] justify-center">
-        <h1 className="absolute -top-10 md:-left-5 md:-top-10 text-4xl text-gray-500 font-extrabold">
+      <div className="relative border bg-white dark:bg-black p-4 border-muted rounded-md shadow-xl  z-10 mx-4 max-w-[500px] justify-center  ">
+        <h1 className="absolute -top-8 md:-top-10 text-xl md:text-4xl text-gray-500 font-extrabold">
           {year}
         </h1>
         <h1 className="font-semibold text-xl">{title}</h1>
