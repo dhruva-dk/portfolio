@@ -4,13 +4,13 @@ import userData from '@/constants/user'
 const Footer = () => {
   return (
     <footer className="p-16 border-solid border-t-2 border-muted bg-card">
-      <div className='mx-auto flex items-center justify-evenly text-center'>
+      <div className=' flex items-center justify-evenly text-center'>
       <div className='w-1/4 justify-center'>
         <h1 className="text-xl font-bold">{userData.name}</h1>
       </div>
-      <div className='flex-col items-center text-center justify-center'>
+
         <p className="text-sm text-gray-400">Powered by Next.js</p>
-      </div>
+
       <div className="w-1/4 space-x-4 flex flex-row items-center justify-center">
             <a
               href={userData.socialLinks.linkedin}
