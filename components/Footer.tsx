@@ -3,7 +3,7 @@ import userData from '@/constants/user'
 
 const Footer = () => {
   return (
-    <footer className="p-16 border-solid border-t-2 border-muted bg-card">
+    <footer className="py-12 border-solid border-t-2 border-muted bg-card">
       <div className=' flex items-center justify-evenly text-center'>
       <div className='w-1/4 justify-center'>
         <h1 className="text-xl font-bold">{userData.name}</h1>
