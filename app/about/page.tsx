@@ -11,7 +11,7 @@ const About = () => {
       </div>
       <div className='bg-card -mt-6'>
         {/* Content goes in below div */}
-        <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20 px-8">
+        <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-5 md:gap-y-20 gap-x-20 px-8">
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
@@ -89,10 +89,10 @@ const About = () => {
               </p>
             ))}
 
-            <h1 className="bg-blue-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="bg-gradient-to-r from-blue-400 to-blue-600  text-white text-xl md:text-3xl rounded-md px-2 py-2 inline-block font-bold mt-4  ">
               I have experience with:
             </h1>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div className="flex flex-row flex-wrap justify-center sm:justify-start my-8 items-center w-full">
               {/* Add tech images here*/}
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
