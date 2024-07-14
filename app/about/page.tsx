@@ -30,7 +30,7 @@ const About = () => {
               </p>
             </div>
             <div className="mt-8">
-              <h1 className="texsxt-xl font-semibold text-gray-700 dark:text-gray-200">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
