@@ -15,7 +15,7 @@ const RealEstate = () => {
       <div className='container grid grid-cols-1 md:grid-cols-2 py-20 gap-2'>
             {/* Grid of photos go here */}
             {[...Array(16)].map((x, i) =>
-              <div key={i}className="max-w-[100%] relative w-full aspect-[3/2] overflow-hidden" > {/*Set a fixed max width / height in div, then you can set whatever img size you want in next js it will only go to fill its container
+              <div key={i}className="max-w-[100%] relative w-full aspect-[3/2] overflow-hidden shadow-xl" > {/*Set a fixed max width / height in div, then you can set whatever img size you want in next js it will only go to fill its container
                 */}
    
                 <Image
