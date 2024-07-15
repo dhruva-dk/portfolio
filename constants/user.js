@@ -87,7 +87,7 @@ const userData = {
       
     ],
     resumeUrl:
-      "https://drive.google.com/file/d/1EQA6AfxprOjX08u7L17LW-p9gz6cJFA9/view?usp=sharing",
+      "https://drive.google.com/file/d/1FwMm2vTL3xYppcEyO_CYrudAzWx5lCvF/view?usp=sharing",
     socialLinks: {
 
       linkedin: "https://www.linkedin.com/in/dhruva-kumar-dk/",
