@@ -40,42 +40,42 @@ const userData = {
 
     ],
     about: {
-      title:
-        "High School Senior interested in Full Stack Development and Real Estate Photography",
+      title: "High School Senior Aspiring to Study Computer Science",
       description: [
-      `I'm a driven high school senior at Cistercian Preparatory School with a passion for math and technology. My experience spans several areas:`,
-      ``,
-      `- Software Development: Proficient in Flutter development, building applications using Firebase and Github. Skilled in Java and Dart, with additional experience in Python and C#.`,
-      ``,
-      ``,
-      `- Web Development: Experienced in no-code platforms like Webflow & currently learning React and Next.js.`,
-      ``,
-      `- Photography: Skilled in event and real estate photography, having built a small business serving cabin owners in Broken Bow, Oklahoma.`,
-      ``,
-      `Outside of tech, I'm an avid violinist with 7 years of experience. I also enjoy managing my freshwater aquarium and building custom PCs.`,
-      ``,
-      `I find joy in working through complex concepts and helping others, as the process reinforces my own knowledge. Always looking to learn and grow, I approach each new challenge with dedication and an analytical mindset.`,
-
-
+        `I'm a driven high school senior at Cistercian Preparatory School with a passion for computer science and technology. My experience spans several areas:`,
+        ``,
+        `- Software Development: Proficient in Java, Python, and Dart. Experienced in mobile app development using Flutter and Firebase. Currently exploring web development with React.js and Next.js.`,
+        ``,
+        ``,
+        `- Photography: Run a small business providing real estate and event photography services.`,
+        ``,
+        `Outside of tech, I'm an avid violinist and enjoy maintaining my freshwater aquarium. I'm also active in community service through Young Men's Service League.`,
+        ``,
+        `I approach each new challenge with dedication and an analytical mindset, always eager to learn and grow. My goal is to use my skills in computer science to create solutions in the field of educational technology.`,
       ],
-      //currentProject: "Tailwind Master Kit",
-      //currentProjectUrl: "https://tailwindmasterkit.com",
     },
     experience: [
       
       {
-        title: "Intern",
+        title: "Software Engineer Intern",
+        company: "Reality5D",
+        year: "2024",
+        companyLink: "reality5d.com",
+        desc: "Develop cross-platform mobile applications using React Native, Firebase and, Autogen. Collaborate with Git and GitHub.",
+      },
+      {
+        title: "IT Intern",
         company: "Sagiss",
         year: "2024",
         companyLink: "sagiss.com",
-        desc: "Took client calls and created team reports using SQL and Power BI.",
+        desc: "Wrote SQL queries to extract ticket data, built Power BI reports for client financial data, and managed support calls as a dispatcher.",
       },
       {
         title: "Math Instructor",
         company: "Mathnasium KV",
         year: "2023-2024",
         companyLink: "mathnasium.com",
-        desc: "Instruct up 4 students per hour on Math topics from Grades 1-10.",
+        desc: "Instruct groups of 4 students per hour, evaluate student work, and communicate with parents regarding progress.",
       },
       {
         title: "Web Designer",
