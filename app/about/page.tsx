@@ -38,7 +38,8 @@ const About = () => {
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
-                  target="__blank"
+                  download="resume.pdf"
+                  target="_blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV
