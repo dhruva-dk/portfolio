@@ -87,7 +87,7 @@ const userData = {
       
     ],
     resumeUrl:
-      "/resume/Dhruva_Kumar_Resume.pdf",
+      "/resume/resume.pdf",
     socialLinks: {
 
       linkedin: "https://www.linkedin.com/in/dhruva-kumar-dk/",
