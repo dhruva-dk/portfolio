@@ -29,6 +29,13 @@ const userData = {
         technologies: "Flutter, Firebase",
         description: "This very portfolio site, made with TypeScript and Next.js."
       },
+      {
+        title: "Online Course Recommender",
+        link: "https://github.com/subbuguru/mooc-search",
+        imgUrl: "/mooc-search.png",
+        technologies: "Python, Pandas, FastAPI, Next.js",
+        description: "An online course recommender system focused on accessiblity (free courses only). Uses BERT embeddings for search, and served by FastAPI and Next.js applications."
+      },
 
 
     ],
