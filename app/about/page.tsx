@@ -89,43 +89,48 @@ const About = () => {
               </p>
             ))}
 
-            <h1 className="bg-gradient-to-r from-blue-400 to-blue-600  text-white text-xl md:text-3xl rounded-md px-2 py-2 inline-block font-bold mt-4  ">
-              I have experience with:
+            <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 text-white text-xl md:text-3xl rounded-md px-2 py-2 inline-block font-bold mt-4">
+            I have experience with:
             </h1>
             <div className="flex flex-row flex-wrap justify-center sm:justify-start my-8 items-center w-full">
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/flutter.svg" alt="Flutter icon"className='h-20 w-20 mx-4 my-4 dark:invert'/>
-
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+              className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
+              alt="Java"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+              className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
+              alt="Python"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+              className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
+              alt="TypeScript"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+              className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform dark:invert"
+              alt="React"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+              className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
+              alt="Flutter"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg"
+              className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
+              alt="Firebase"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+              className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
+              alt="Git"
+            />
             </div>
           </div>
         </div>
-
-
       </div>
     </section>
   )
