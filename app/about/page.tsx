@@ -41,9 +41,9 @@ const About = () => {
                   target="_blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  resume
-                </a>{" "}
-                and I would love to hear back.
+                  resume.
+                </a>
+
               </p>
             </div>
             {/* Social Links */}
@@ -93,7 +93,6 @@ const About = () => {
               I have experience with:
             </h1>
             <div className="flex flex-row flex-wrap justify-center sm:justify-start my-8 items-center w-full">
-              {/* Add tech images here*/}
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"

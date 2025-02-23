@@ -49,9 +49,9 @@ const userData = {
       {
         title: "Software Engineer Intern",
         company: "Reality5D",
-        year: "2024",
+        year: "2024-2025",
         companyLink: "reality5d.com",
-        desc: "Develop cross-platform educational mobile applications using React Native and Firebase. Collaborate with Git and GitHub.",
+        desc: "Develop cross-platform educational mobile applications using React Native and Firebase on the Mosaic Learn (A learning plan creation tool) team.",
       },
       {
         title: "IT Intern",
@@ -73,6 +73,13 @@ const userData = {
         year: "2023-2024",
         companyLink: "sunriserentalcottages.com",
         desc: "Design and Maintain a booking website for a short term rental company.",
+      },
+      {
+        title: "Student",
+        company: "Cistercian Preparatory School",
+        year: "2021-2025",
+        companyLink: "sunriserentalcottages.com",
+        desc: "My time at Cistercian was crucial in my academic and moral formation. During my time there, I participated in Yearbook as Senior Pages Editor, Young Men's Service League as Communications VP, and Medical Club as Secretary.",
       },
       
     ],
