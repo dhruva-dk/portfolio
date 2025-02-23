@@ -1,7 +1,7 @@
 const userData = {
     githubUsername: "subbuguru",
     name: "Dhruva Kumar",
-    designation: "Aspiring Full Stack Developer & Real Estate Photographer",
+    designation: "Full Stack Developer & Real Estate Photographer",
     //avatarUrl: "/avatar.png",
     email: "dhruvakumar2025@gmail.com",
     phone: "+1 (469) 451-0456",
@@ -10,48 +10,38 @@ const userData = {
       
       {
         title: "My Meds - Personal Meds List",
-        link: "https://github.com/subbuguru/medication_tracker",
-        imgUrl: "/mymeds.png",
+        link: "https://github.com/subbuguru/my-meds",
+        imgUrl: "/my-meds.png",
         technologies: "Flutter, SQLite",
-        description: "A privacy-centric application made in Flutter to keep track of personal medications. Uses SQLite for local storage."
-      },
-      
-      {
-        title: "Sunrise Rental Cottages",
-        link: "https://sunriserentalcottages.com",
-        imgUrl: "/sunriserental.png",
-        technologies: "Webflow",
-        description: "A website for my parents' vacation cabin rental company. Made in Webflow-my first ever website."
+        description: "A privacy-centric application made in Flutter to keep track of personal medications. Currently serving over 3,000 users. Uses SQLite for local storage."
       },
       {
         title: "Chat App",
-        link: "https://github.com/subbuguru/chat_app",
-        imgUrl: "/chat.png",
+        link: "https://github.com/subbuguru/chat-app",
+        imgUrl: "/chat-app.png",
         technologies: "Flutter, Firebase",
         description: "A chat application made in Flutter using Firebase for authentication and Firestore for the database."
       },
       {
-        title: "Little Fox Getaways",
-        link: "https://lfgetaways.com",
-        imgUrl: "/lfg.png",
-        technologies: "Webflow",
-        description: "A website for a vacation cabin rental company. Made in Webflow with some custom Javascript."
+        title: "Portfolio Site",
+        link: "https://github.com/subbuguru/portfolio",
+        imgUrl: "/portfolio.png",
+        technologies: "Flutter, Firebase",
+        description: "This very portfolio site, made with TypeScript and Next.js."
       },
+
 
     ],
     about: {
-      title: "High School Senior Aspiring to Study Computer Science",
+      title: "High School Senior planning to study Computer Science",
       description: [
-        `I'm a driven high school senior at Cistercian Preparatory School with a passion for computer science and technology. My experience spans several areas:`,
+        `I am currently a high school senior at Cistercian Preparatory School interested in pursuing a career as a software engineer within the ed-tech space. My interests include:`,
         ``,
-        `- Software Development: Proficient in Java, Python, and Dart. Experienced in mobile app development using Flutter and Firebase. Currently exploring web development with React.js and Next.js.`,
-        ``,
+        `- Software Development: Proficient in Java and Python. Experienced in mobile app development using Flutter, React Native and Firebase`,
         ``,
         `- Photography: Run a small business providing real estate and event photography services.`,
         ``,
-        `Outside of tech, I'm an avid violinist and enjoy maintaining my freshwater aquarium. I'm also active in community service through Young Men's Service League.`,
-        ``,
-        `I approach each new challenge with dedication and an analytical mindset, always eager to learn and grow. My goal is to use my skills in computer science to create solutions in the field of educational technology.`,
+        `Outside of tech, I play the violin, read sci-fi and enjoy watching my freshwater aquarium.`,
       ],
     },
     experience: [
@@ -61,7 +51,7 @@ const userData = {
         company: "Reality5D",
         year: "2024",
         companyLink: "reality5d.com",
-        desc: "Develop cross-platform mobile applications using React Native, Firebase and, Autogen. Collaborate with Git and GitHub.",
+        desc: "Develop cross-platform educational mobile applications using React Native and Firebase. Collaborate with Git and GitHub.",
       },
       {
         title: "IT Intern",

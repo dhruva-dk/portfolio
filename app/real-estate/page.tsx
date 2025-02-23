@@ -7,7 +7,7 @@ const RealEstate = () => {
     <section>
       <div className='max-w-6xl mx-auto mt-16 md:mt-60'>
         <div className=' container'>
-          <h1 className="text-5xl md:text-8xl font-bold text-center md:text-left">Real Estate Photography</h1>
+          <h1 className="text-5xl md:text-9xl font-bold text-center md:text-left">Real Estate Photography</h1>
         </div>
       </div>
       <div className='bg-card -mt-6'>

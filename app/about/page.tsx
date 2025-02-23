@@ -6,7 +6,7 @@ const About = () => {
     <section>
       <div className='max-w-6xl mx-auto mt-16 md:mt-60'>
         <div className=' container'>
-          <h1 className="text-5xl md:text-9xl font-bold text-center md:text-left">About Me!</h1>
+          <h1 className="text-5xl md:text-9xl font-bold text-center md:text-left">About Me</h1>
         </div>
       </div>
       <div className='bg-card -mt-6'>
@@ -24,9 +24,8 @@ const About = () => {
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  email
+                  email.
                 </a>{" "}
-                and I will get back to you!
               </p>
             </div>
             <div className="mt-8">
@@ -42,7 +41,7 @@ const About = () => {
                   target="_blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  CV
+                  resume
                 </a>{" "}
                 and I would love to hear back.
               </p>
