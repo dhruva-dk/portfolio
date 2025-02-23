@@ -10,9 +10,7 @@ const About = () => {
         </div>
       </div>
       <div className='bg-card -mt-6'>
-        {/* Content goes in below div */}
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-5 md:gap-y-20 gap-x-20 px-8">
-          {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
