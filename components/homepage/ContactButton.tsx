@@ -1,8 +1,8 @@
 // components/ContactButton.jsx
-'use client'
+'use client';
 
-import { useState } from 'react'
-import { Button } from "@/components/ui/button"
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
 
 export default function ContactButton() {
   const [copied, setCopied] = useState(false);
@@ -14,8 +14,8 @@ export default function ContactButton() {
   };
 
   return (
-    <Button 
-      variant="default" 
+    <Button
+      variant="default"
       className="bg-gradient-to-r from-blue-400 to-blue-600 hover:from-blue-600 hover:to-blue-900 text-white"
       onClick={copyEmail}
     >
