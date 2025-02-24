@@ -1,5 +1,5 @@
 import React from 'react';
-import userData from '@/constants/user'
+import userData from '@/constants/user';
 
 const Footer = () => {
   return (

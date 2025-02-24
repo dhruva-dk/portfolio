@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider"
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { ThemeProvider } from '@/components/theme-provider';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Dhruva Kumar - Photographer and Developer",
-  description: "I am a high school senior who is passionate about photography and software development. I shoot properties in the Dallas, TX and Broken Bow, OK I am currently working on a few projects and am looking for opportunities to learn and grow.",
-  icons: [
-    {url: "/favicon.ico", sizes:"any"},
-  ],
+  title: 'Dhruva Kumar - Photographer and Developer',
+  description:
+    'I am a high school senior who is passionate about photography and software development. I shoot properties in the Dallas, TX and Broken Bow, OK I am currently working on a few projects and am looking for opportunities to learn and grow.',
+  icons: [{ url: '/favicon.ico', sizes: 'any' }],
 };
 
 export default function RootLayout({
@@ -30,9 +29,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main>
-            {children}
-          </main>
+          <main>{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
