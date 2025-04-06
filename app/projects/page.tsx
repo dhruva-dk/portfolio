@@ -17,9 +17,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="bg-card -mt-6">
-        {/* Map Projects from UserData to ProjectCards */}
         <div className="container grid-cols-1 md:grid-cols-2 py-20">
-          {/* ProjectCards go here */}
           <BentoGrid>
             {userData.projects.map((project, idx) => (
               <BentoGridItem
