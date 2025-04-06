@@ -35,7 +35,7 @@ const userData = {
       title: 'MOOC Search - Agentic Online Course Recommender',
       link: 'https://github.com/subbuguru/mooc-search',
       imgUrl: '/mooc-search.png',
-      technologies: 'Python, Pandas, FastAPI, Next.js',
+      technologies: 'Python, Pandas, LLamaIndex, FastAPI, Next.js',
       description:
         'An online course recommender system focused on accessibility (free courses only). Uses BERT embeddings for semantic search, orchestrated by an LLM Agent with the LlamaIndex framework. Served with a FastAPI backend and Next.js frontend.',
     },
