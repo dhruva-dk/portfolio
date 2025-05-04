@@ -3,7 +3,7 @@ const userData = {
   name: 'Dhruva Kumar',
   designation: 'Full Stack Developer & Real Estate Photographer',
   //avatarUrl: "/avatar.png",
-  email: 'dhruvakumar2025@gmail.com',
+  email: 'contact@dhruva-kumar.com',
   phone: '+1 (469) 451-0456',
   address: 'Coppell, Texas, United States',
   projects: [
