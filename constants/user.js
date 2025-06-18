@@ -1,12 +1,21 @@
 const userData = {
   githubUsername: 'subbuguru',
   name: 'Dhruva Kumar',
-  designation: 'Full Stack Developer & Real Estate Photographer',
+  designation: 'CS major and photography enthusiast at UT Austin',
   //avatarUrl: "/avatar.png",
   email: 'contact@dhruva-kumar.com',
   phone: '+1 (469) 451-0456',
   address: 'Coppell, Texas, United States',
   projects: [
+    // --- NEW PROJECT ADDED HERE ---
+    {
+      title: 'Ordoflow - AI-Generated Todo App',
+      link: 'https://github.com/subbuguru/ordoflow',
+      imgUrl: '/ordoflow.png',
+      technologies: 'React Native, Expo, SQLite',
+      description:
+        "A 'vibe-coded' task management mobile app. Features local SQLite storage, light/dark modes, swipe gestures, and drag-and-drop reordering.",
+    },
     {
       title: 'Mosaic Learn - Learn Anything',
       link: 'https://github.com/subbuguru/mosaic-learn',
@@ -41,15 +50,9 @@ const userData = {
     },
   ],
   about: {
-    title: 'High School Senior planning to study Computer Science',
+    title: 'UT Austin Computer Science 2029',
     description: [
-      `I am currently a high school senior at Cistercian Preparatory School interested in pursuing a career as a software engineer. My interests include:`,
-      ``,
-      `- Software Development: Experienced with mobile and web development using Flutter and React. Currently exploring AI and agentic applications.`,
-      ``,
-      `- Photography: Have a (very) small business providing real estate and event photography services.`,
-      ``,
-      `Outside of tech, I enjoy playing the violin, reading sci-fi, and watching my freshwater aquarium.`,
+      `I'm excited to begin my Computer Science journey at the University of Texas at Austin (Class of 2029). I enjoy learning about software development and AI-integrated applications, along with photography, violin, workouts and freshwater aquariums. I hope you enjoy my site!`,
     ],
   },
   experience: [
@@ -58,7 +61,7 @@ const userData = {
       company: 'Reality5D',
       year: '2024-2025',
       companyLink: 'https://reality5d.com',
-      desc: 'Developed cross-platform mobile applications using React Native and Firebase. Led development of Mosaic Learn, an app that turns user input into personalized learning plans via Gemini API.',
+      desc: 'Developed cross-platform mobile applications using React Native and Firebase. Help develop Mosaic Learn, an app that turns user input into personalized learning plans via Gemini API.',
     },
     {
       title: 'IT Intern',
