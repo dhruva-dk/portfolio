@@ -1,24 +1,22 @@
 const userData = {
   githubUsername: 'subbuguru',
   name: 'Dhruva Kumar',
-  designation: 'CS major and photography enthusiast at UT Austin',
-  //avatarUrl: "/avatar.png",
+  designation: 'CS major at UT Austin',
   email: 'contact@dhruva-kumar.com',
   phone: '+1 (469) 451-0456',
   address: 'Coppell, Texas, United States',
   projects: [
-    // --- NEW PROJECT ADDED HERE ---
     {
-      title: 'Ordoflow - AI-Generated Todo App',
+      title: 'Ordoflow - Simple Task Management',
       link: 'https://github.com/subbuguru/ordoflow',
       imgUrl: '/ordoflow.png',
       technologies: 'React Native, Expo, SQLite',
       description:
-        "A 'vibe-coded' task management mobile app. Features local SQLite storage, light/dark modes, swipe gestures, and drag-and-drop reordering.",
+        "A simple task management mobile application with task prioritization, light/dark modes, swipe gestures, and drag-and-drop reordering.",
     },
     {
       title: 'Mosaic Learn - Learn Anything',
-      link: 'https://github.com/subbuguru/mosaic-learn',
+      link: 'https://apps.apple.com/us/app/mosaic-learn/id6736591253',
       imgUrl: '/mosaic-learn.png',
       technologies: 'React Native, Firebase, Gemini API',
       description:
@@ -52,10 +50,17 @@ const userData = {
   about: {
     title: 'UT Austin Computer Science 2029',
     description: [
-      `I'm excited to begin my Computer Science journey at the University of Texas at Austin (Class of 2029). I enjoy learning about software development and AI-integrated applications, along with photography, violin, workouts and freshwater aquariums. I hope you enjoy my site!`,
+      `I'm excited to begin my Computer Science journey at the University of Texas at Austin (Class of 2029). I enjoy learning about software development and AI-integrated applications. I also love photography, violin, working out and freshwater aquariums. I hope you enjoy my site!`,
     ],
   },
   experience: [
+    {
+      title: 'Undergraduate, Computer Science',
+      company: 'Reality5D',
+      year: '2025-2029',
+      companyLink: 'utexas.edu',
+      desc: 'Currently a Freshman at the University of Texas at Austin.',
+    },
     {
       title: 'Software Engineer Intern',
       company: 'Reality5D',
