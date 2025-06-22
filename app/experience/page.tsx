@@ -13,7 +13,6 @@ const Experience = () => {
         </div>
       </div>
       <div className="bg-card -mt-6">
-        {/* Map experiences from userData to ExperienceCards */}
         <div className="container flex items-center py-20">
           <div className="flex flex-col items-center gap-4 w-[100%]">
             {userData.experience.map((exp, idx) => (
