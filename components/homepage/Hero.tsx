@@ -6,7 +6,7 @@ import userData from '@/constants/user';
 
 const Hero = () => {
   const heroText: string =
-    "Hi 👋, I'm Dhruva, a high school senior on a journey in software development and photography.";
+    "Hi 👋, I'm Dhruva, a computer science major at the University of Texas at Austin on a journey in CS and photography";
   const colors: string[] = ['#87CEFA', '#4169E1'];
 
   return (
