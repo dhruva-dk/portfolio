@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex-grow text-center hidden md:block">
           <div className="inline-flex items-center space-x-6">
             <Link href="/photography" className="hover:text-gray-300">
-              Real Estate
+              Photography
             </Link>
             <Link href="/experience" className="hover:text-gray-300">
               Experience

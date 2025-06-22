@@ -14,7 +14,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
   companyLink,
 }) => {
   return (
-    <div className="relative border bg-white dark:bg-black p-4 border-muted rounded-md shadow-xl  z-10 mx-4 max-w-[500px] justify-center  ">
+    <div className="relative border bg-white dark:bg-black p-4 border-muted rounded-md shadow-xl z-10 mx-4 w-full sm:w-[500px]">
       <h1 className="absolute -top-8 md:-top-10 text-xl md:text-4xl text-gray-500 font-extrabold">
         {year}
       </h1>

@@ -1,19 +1,10 @@
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-  CardFooter,
-} from '@/components/ui/card';
-import ContactButton from '@/components/homepage/ContactButton';
 import HomeCard from './HomeCard';
 
 export default function HomeGrid() {
   return (
     <div className="text-foreground p-12 ">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <HomeCard
             title="Experience"
             description="View the timeline of my professional and academic career."
@@ -38,18 +29,6 @@ export default function HomeGrid() {
             buttonText="About Me"
             href="/about"
           />
-          <Card className=" min-h-[200px] flex flex-col justify-between">
-            <CardHeader>
-              <CardTitle className="text-xl">Contact Me</CardTitle>
-              <CardDescription className="text-sm h-12">
-                Have any questions? Get in touch for collaborations or
-                inquiries.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ContactButton />
-            </CardContent>
-          </Card>
         </div>
       </div>
     </div>
