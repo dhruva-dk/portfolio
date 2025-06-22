@@ -1,5 +1,6 @@
 import userData from '@/constants/user';
 import React from 'react';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -91,40 +92,61 @@ const About = () => {
               I have experience with:
             </h1>
             <div className="flex flex-row flex-wrap justify-center sm:justify-start my-8 items-center w-full">
-              <img
+              <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
                 className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
                 alt="Java"
+                width={80}
+                height={80}
+                unoptimized
               />
-              <img
+              <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
                 className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
                 alt="Python"
+                width={80}
+                height={80}
+                unoptimized
               />
-              <img
+              <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
                 className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
                 alt="TypeScript"
+                width={80}
+                height={80}
+                unoptimized
               />
-              <img
+              <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                 className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform dark:invert"
                 alt="React"
+                width={80}
+                height={80}
+                unoptimized
               />
-              <img
+              <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
                 className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
                 alt="Flutter"
+                width={80}
+                height={80}
+                unoptimized
               />
-              <img
+              <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg"
                 className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
                 alt="Firebase"
+                width={80}
+                height={80}
+                unoptimized
               />
-              <img
+              <Image
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
                 className="h-20 w-20 mx-4 my-4 hover:scale-110 transition-transform"
                 alt="Git"
+                width={80}
+                height={80}
+                unoptimized
               />
             </div>
           </div>

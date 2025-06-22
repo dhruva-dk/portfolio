@@ -1,8 +1,6 @@
 import React from 'react';
 import { RainbowHighlight } from '../ui/RainbowHighlight';
 import { RoughNotationGroup } from 'react-rough-notation';
-import userData from '@/constants/user';
-//import index.ts for text
 
 const Hero = () => {
   const heroText: string =

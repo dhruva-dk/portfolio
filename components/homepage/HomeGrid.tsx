@@ -14,7 +14,6 @@ export default function HomeGrid() {
     <div className="text-foreground p-12 ">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* home cards for experience, projects, real estate photography, wildlife photography */}
           <HomeCard
             title="Experience"
             description="View the timeline of my professional and academic career."
@@ -45,8 +44,6 @@ export default function HomeGrid() {
             buttonText="About Me"
             href="/about"
           />
-
-          {/* Contact Card (spans 2 columns) */}
           <Card className=" min-h-[200px] flex flex-col justify-between">
             <CardHeader>
               <CardTitle className="text-xl">Contact Me</CardTitle>

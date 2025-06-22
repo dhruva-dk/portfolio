@@ -1,8 +1,6 @@
 import React from 'react';
 import userData from '@/constants/user';
 import { BentoGrid, BentoGridItem } from '@/components/BentoGrid';
-import { Link } from 'lucide-react';
-import Image from 'next/image';
 
 const Projects = () => {
   const baseImgUrl = '/projects';
