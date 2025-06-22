@@ -12,7 +12,7 @@ const userData = {
       imgUrl: '/ordoflow.png',
       technologies: 'React Native, Expo, SQLite',
       description:
-        "A simple task management mobile application with task prioritization, light/dark modes, swipe gestures, and drag-and-drop reordering.",
+        'A simple task management mobile application with task prioritization, light/dark modes, swipe gestures, and drag-and-drop reordering.',
     },
     {
       title: 'Mosaic Learn - Learn Anything',
