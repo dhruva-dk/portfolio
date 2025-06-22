@@ -16,11 +16,8 @@ const Navbar = () => {
         </div>
         <div className="flex-grow text-center hidden md:block">
           <div className="inline-flex items-center space-x-6">
-            <Link href="/real-estate" className="hover:text-gray-300">
+            <Link href="/photography" className="hover:text-gray-300">
               Real Estate
-            </Link>
-            <Link href="/wildlife" className="hover:text-gray-300">
-              Wildlife
             </Link>
             <Link href="/experience" className="hover:text-gray-300">
               Experience

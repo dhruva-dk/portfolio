@@ -27,20 +27,14 @@ export default function HomeGrid() {
             href="/projects"
           />
           <HomeCard
-            title="Real Estate Photography"
-            description="See some of my real estate photos if you are interested in my services."
-            buttonText="View Real Estate"
-            href="/real-estate"
-          />
-          <HomeCard
-            title="Wildlife Photography"
-            description="View a sample of my wildlife photography collection."
-            buttonText="View Wildlife"
-            href="/wildlife"
+            title="Photography"
+            description="See some of my favorite photos."
+            buttonText="View Photography"
+            href="/photography"
           />
           <HomeCard
             title="About Me"
-            description="Learn more about me, my journey & my tech stack."
+            description="Learn more about me and my interests."
             buttonText="About Me"
             href="/about"
           />

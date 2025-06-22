@@ -50,7 +50,7 @@ const userData = {
   about: {
     title: 'UT Austin Computer Science 2029',
     description: [
-      `I'm excited to begin my Computer Science journey at the University of Texas at Austin (Class of 2029). I enjoy learning about software development and AI-integrated applications. I also love photography, violin, working out and freshwater aquariums. I hope you enjoy my site!`,
+      `I'm excited to begin my Computer Science journey at the University of Texas at Austin (Class of 2029). I enjoy learning about software development and AI-integrated applications. I also like photography, violin, working out and freshwater aquariums. I hope you enjoy my site!`,
     ],
   },
   experience: [
@@ -83,18 +83,11 @@ const userData = {
       desc: 'Taught groups of 4–5 students, evaluated student work, and communicated with parents about progress.',
     },
     {
-      title: 'Web Designer',
-      company: 'Sunrise Rental Cottages',
-      year: '2023-2024',
-      companyLink: 'https://sunriserentalcottages.com',
-      desc: 'Designed and maintained a booking website for a short-term rental company.',
-    },
-    {
       title: 'Student',
       company: 'Cistercian Preparatory School',
       year: '2021-2025',
       companyLink: 'https://cistercian.org/school',
-      desc: "During my time at Cistercian, I served as Yearbook Senior Pages Editor, Young Men's Service League Communications VP, and Medical Club Secretary.",
+      desc: "During my time at Cistercian, I served as Yearbook Senior Pages Editor and Young Men's Service League Communications VP and was part of the Cum Laude Society.",
     },
   ],
   resumeUrl: '/resume/resume.pdf',
