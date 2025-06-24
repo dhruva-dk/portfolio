@@ -25,7 +25,7 @@ const Experience = () => {
                 <div className="w-4 h-4 bg-primary rounded-full z-10">
                   <div className="w-4 h-4 bg-primary rounded-full z-10 animate-ping"></div>
                 </div>
-                <div className="w-1 h-24 bg-secondary rounded-full -mt-2"></div>
+                <div className="w-1 h-24 bg-border rounded-full -mt-2"></div>
               </div>
             )}
           </React.Fragment>

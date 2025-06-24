@@ -36,7 +36,7 @@ const HomeCard: React.FC<HomeCardProps> = ({
       </CardHeader>
       <CardContent className="mt-auto">
         <Link href={href} passHref>
-          <Button>{buttonText}</Button>
+          <Button variant={"outline"}>{buttonText}</Button>
         </Link>
       </CardContent>
     </Card>
