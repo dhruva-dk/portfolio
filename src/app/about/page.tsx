@@ -12,22 +12,7 @@ const About = () => {
         </h1>
       </div>
       <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-y-20 gap-x-20 mx-auto">
-        <div className="inline-flex flex-col">
-          <h1 className="text-xl font-semibold">Links</h1>
-          <div className="mt-4 ml-4">
-            <AboutLink href={`mailto:${userData.info.email}`}>Email</AboutLink>
-            <AboutLink href={userData.info.resumeUrl} download target="_blank">
-              Resume
-            </AboutLink>
-            <AboutLink href={userData.info.socialLinks.github}>
-              GitHub
-            </AboutLink>
-            <AboutLink href={userData.info.socialLinks.linkedin}>
-              LinkedIn
-            </AboutLink>
-          </div>
-        </div>
-        <div className="col-span-1 md:col-span-2">
+        <div className="col-span-1 md:col-span-2 order-1 md:order-2">
           {userData.about.description?.map((desc, idx) => (
             <p key={idx} className="text-xl text-muted-foreground">
               {desc}
@@ -53,6 +38,21 @@ const About = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
               alt="React"
             />
+          </div>
+        </div>
+        <div className="inline-flex flex-col order-2 md:order-1">
+          <h1 className="text-xl md:text-2xl font-bold">Links</h1>
+          <div className="mt-4 ml-4">
+            <AboutLink href={`mailto:${userData.info.email}`}>Email</AboutLink>
+            <AboutLink href={userData.info.resumeUrl} download target="_blank">
+              Resume
+            </AboutLink>
+            <AboutLink href={userData.info.socialLinks.github}>
+              GitHub
+            </AboutLink>
+            <AboutLink href={userData.info.socialLinks.linkedin}>
+              LinkedIn
+            </AboutLink>
           </div>
         </div>
       </div>
