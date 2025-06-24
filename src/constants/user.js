@@ -64,7 +64,7 @@ const userData = {
     title: "UT Austin Computer Science 2029",
     description: [
       `I'm excited to begin my Computer Science journey at the University of Texas at Austin (Class of 2029). I am currently most interested in software development, specifically AI-integrated applications.`,
-      `Outside of CS, I also like photography, violin, and freshwater aquariums. For reference, My favorite fish is the black neon tetra. I hope you enjoy my site!`,
+      `Outside of CS, I also like photography, violin, and freshwater aquariums. For reference, my favorite fish is the black neon tetra. I hope you enjoy my site!`,
     ],
   },
   experience: [
