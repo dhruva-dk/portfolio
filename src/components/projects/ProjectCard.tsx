@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 
