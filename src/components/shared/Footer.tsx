@@ -3,16 +3,15 @@ import userData from "@/constants/user";
 
 const Footer = () => {
   return (
-    <footer className="p-4 mt-auto py-12 border-solid border-t-2 border-muted flex-grow">
-      <div className="container mx-auto flex items-center justify-between">
+    <footer className="mt-auto py-12 border-solid border-t-2 border-muted flex-grow">
+      <div className="container flex items-center justify-between">
         <div className="w-1/4">
-          <p className="text-sm text-gray-500">© Dhruva Kumar 2025</p>
+          <p className="text-sm text-muted-foreground">© Dhruva Kumar 2025</p>
         </div>
-        <div className="flex-grow" />
         <div className="w-1/4 flex justify-end space-x-4">
           <a
             href={userData.info.socialLinks.linkedin}
-            className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+            className="text-base font-normal text-muted-foreground hover:text-foreground transition-colors"
             aria-label="LinkedIn"
           >
             <svg
@@ -28,7 +27,7 @@ const Footer = () => {
           </a>
           <a
             href={userData.info.socialLinks.github}
-            className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+            className="text-base font-normal text-muted-foreground hover:text-foreground transition-colors"
             aria-label="GitHub"
           >
             <svg
