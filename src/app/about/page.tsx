@@ -21,7 +21,7 @@ const About = () => {
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={`mailto:${userData.email}`}
+                  href={`mailto:${userData.info.email}`}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -33,7 +33,7 @@ const About = () => {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.resumeUrl}
+                  href={userData.info.resumeUrl}
                   download="resume.pdf"
                   target="_blank"
                   className="flex flex-row items-center space-x-4 group"
@@ -47,7 +47,7 @@ const About = () => {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.github}
+                  href={userData.info.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -59,7 +59,7 @@ const About = () => {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.linkedin}
+                  href={userData.info.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>

@@ -1,4 +1,4 @@
-import HomeCard from "@/components/homepage/HomeCard";
+import HomeCard from "@/components/home/HomeCard";
 import userData from "@/constants/user";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
             </h1>
           </div>
           <p className="mx-auto text-muted-foreground text-xl md:text-2xl">
-            {userData.heroText}
+            {userData.home.heroText}
           </p>
         </div>
       </section>

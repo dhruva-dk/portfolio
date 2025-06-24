@@ -1,12 +1,23 @@
 const userData = {
-  githubUsername: "subbuguru",
-  name: "Dhruva Kumar",
-  designation: "CS major at UT Austin",
-  email: "contact@dhruva-kumar.com",
-  phone: "+1 (469) 451-0456",
-  address: "Coppell, Texas, United States",
-  heroText:
-    "Hi 👋, I'm Dhruva, a computer science major at the University of Texas at Austin on a journey in CS and photography!",
+  info: {
+    githubUsername: "subbuguru",
+    name: "Dhruva Kumar",
+    designation: "CS major at UT Austin",
+    email: "contact@dhruva-kumar.com",
+    phone: "+1 (469) 451-0456",
+    address: "Coppell, Texas, United States",
+    resumeUrl: "/resume/resume.pdf",
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/dhruva-kumar-dk/",
+      github: "https://github.com/subbuguru",
+    },
+  },
+
+  home: {
+    heroText:
+      "Hi 👋, I'm Dhruva, a computer science major at the University of Texas at Austin on a journey in CS and photography!",
+  },
+
   projects: [
     {
       title: "Ordoflow - Simple Task Management",
@@ -93,11 +104,6 @@ const userData = {
       desc: "During my time at Cistercian, I served as Yearbook Senior Pages Editor and Young Men's Service League Communications VP and was part of the Cum Laude Society.",
     },
   ],
-  resumeUrl: "/resume/resume.pdf",
-  socialLinks: {
-    linkedin: "https://www.linkedin.com/in/dhruva-kumar-dk/",
-    github: "https://github.com/subbuguru",
-  },
 };
 
 export default userData;
