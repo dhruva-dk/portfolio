@@ -20,6 +20,14 @@ const userData = {
 
   projects: [
     {
+      title: "Imagebar - Menubar Image Converter",
+      link: "https://github.com/subbuguru/imagebar",
+      imgUrl: "/imagebar.png",
+      technologies: "SwiftUI, ImageIO",
+      description:
+        "A Menubar image conversion and resizing tool for MacOS with drag-and-drop support, built with SwiftUI's MenuBarExtra API. Supports JPEG, HEIC, TIFF and PNG through ImageIO.",
+    },
+    {
       title: "Ordoflow - Simple Task Management",
       link: "https://github.com/subbuguru/ordoflow",
       imgUrl: "/ordoflow.png",
