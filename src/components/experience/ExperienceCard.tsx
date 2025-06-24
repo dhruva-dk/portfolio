@@ -17,7 +17,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
   companyLink,
 }) => {
   return (
-    <Card className="relative z-10 mx-4 w-full max-w-[500px] overflow-visible">
+    <Card className="relative z-10 mx-4 w-full max-w-[650px] overflow-visible">
       <h2 className="absolute -top-8 text-xl md:-top-10 md:text-4xl text-muted-foreground font-extrabold">
         {year}
       </h2>
