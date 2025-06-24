@@ -5,6 +5,8 @@ const userData = {
   email: "contact@dhruva-kumar.com",
   phone: "+1 (469) 451-0456",
   address: "Coppell, Texas, United States",
+  heroText:
+    "Hi 👋, I'm Dhruva, a computer science major at the University of Texas at Austin on a journey in CS and photography!",
   projects: [
     {
       title: "Ordoflow - Simple Task Management",

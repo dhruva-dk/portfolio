@@ -1,9 +1,9 @@
-import React from 'react';
-import userData from '@/constants/user';
-import { BentoGrid, BentoGridItem } from '@/components/BentoGrid';
+import React from "react";
+import userData from "@/constants/user";
+import { ProjectCard } from "@/components/projects/ProjectCard";
 
 const Projects = () => {
-  const baseImgUrl = '/projects';
+  const baseImgUrl = "/projects";
 
   return (
     <section>
@@ -16,9 +16,13 @@ const Projects = () => {
       </div>
       <div className="bg-card -mt-6">
         <div className="container grid-cols-1 md:grid-cols-2 py-20">
-          <BentoGrid>
+          <div
+            className={
+              "grid grid-cols-1 md:grid-cols-2 gap-4 max-w-7xl mx-auto"
+            }
+          >
             {userData.projects.map((project, idx) => (
-              <BentoGridItem
+              <ProjectCard
                 key={idx}
                 title={project.title}
                 description={project.description}
@@ -27,7 +31,7 @@ const Projects = () => {
                 imgUrl={baseImgUrl + project.imgUrl}
               />
             ))}
-          </BentoGrid>
+          </div>
         </div>
       </div>
     </section>
