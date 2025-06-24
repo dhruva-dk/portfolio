@@ -4,13 +4,13 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/shared/theme-provider";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
+import userData from "@/constants/user";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dhruva Kumar - Photographer and Developer",
-  description:
-    "I am a high school senior who is passionate about photography and software development. I shoot properties in the Dallas, TX and Broken Bow, OK I am currently working on a few projects and am looking for opportunities to learn and grow.",
+  title: `${userData.info.name} - ${userData.info.designation}`,
+  description: userData.home.heroText,
   icons: [{ url: "/favicon.ico", sizes: "any" }],
 };
 
