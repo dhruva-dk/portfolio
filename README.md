@@ -6,7 +6,7 @@ My (Dhruva Kumar's) Portfolio site developed with React and Next.js. It serves a
 
 [View at dhruva-kumar.com](https://dhruva-kumar.com)
 
-## Usage
+## Development
 
 First, run the development server:
 
