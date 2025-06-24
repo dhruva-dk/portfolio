@@ -3,6 +3,12 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"; // Adjust the import path to your project structure
 
 export const ProjectCard = ({
   className,
@@ -16,42 +22,39 @@ export const ProjectCard = ({
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
   technologies?: string;
-  link?: string;
-  imgUrl?: string;
+  link: string;
+  imgUrl: string;
 }) => {
   return (
-    <div
+    <Card
       className={cn(
-        "row-span-1 rounded-md hover:shadow-lg hover:translate-x-1 hover:-translate-y-1 transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent flex flex-col space-y-4",
+        "hover:shadow-lg hover:translate-x-2 hover:-translate-y-2 transition-transform duration-200 flex flex-col",
         className
       )}
     >
-      <div className="max-w-[100%] relative w-full aspect-[16/9] overflow-hidden">
-        <Link href={`${link}`} rel="noopener noreferrer" target="_blank">
-          <Image
-            src={`${imgUrl}`}
-            alt="project.title"
-            width={600}
-            height={600}
-            style={{
-              objectFit: "cover",
-              width: "100%",
-              height: "100%",
-              borderRadius: "0.25rem",
-            }}
-          />
-        </Link>
-      </div>
-      <div className="flex flex-col flex-grow">
-        <div className="transition duration-200">
-          <div className="font-sans font-bold text-xl mb-2 mt-2">{title}</div>
-          <div className="font-sans font-normal text-neutral-600 dark:text-neutral-300 mb-4">
-            {description}
-          </div>
+      <CardHeader>
+        <div className="relative w-full aspect-[16/9] overflow-hidden rounded-md">
+          {
+            <Link href={link} rel="noopener noreferrer" target="_blank">
+              <Image
+                src={imgUrl || "/placeholder.png"} // Provide a fallback image
+                alt={typeof title === "string" ? title : "Project image"}
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </Link>
+          }
         </div>
-
-        <div className="mt-auto font-sans font-semibold">{technologies}</div>
+      </CardHeader>
+      <div className="flex flex-col flex-grow p-4">
+        <CardTitle className="font-bold text-xl mb-2">{title}</CardTitle>
+        <CardDescription className="text-base mb-4">
+          {description}
+        </CardDescription>
+        <div className="mt-auto">
+          <p className="font-semibold text-sm">{technologies}</p>
+        </div>
       </div>
-    </div>
+    </Card>
   );
 };

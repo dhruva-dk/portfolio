@@ -6,7 +6,7 @@ import ModeToggle from "./mode-toggle";
 const Navbar = () => {
   return (
     <nav className="p-4 border-solid border-b-2 border-muted ">
-      <div className="container  mx-auto flex items-center justify-between ">
+      <div className="container mx-auto flex items-center justify-between ">
         <div className="w-1/4">
           <Link className="block text-left" href="/">
             <h1 className="text-xl font-bold">{userData.info.name}</h1>

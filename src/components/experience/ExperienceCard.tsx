@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"; // Adjust the import path as needed
+
 interface ExperienceCardProps {
   title: string;
   desc: string;
@@ -14,15 +17,25 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
   companyLink,
 }) => {
   return (
-    <div className="relative border bg-white dark:bg-black p-4 border-muted rounded-md shadow-xl z-10 mx-4 w-full sm:w-[500px]">
-      <h1 className="absolute -top-8 md:-top-10 text-xl md:text-4xl text-gray-500 font-extrabold">
+    <Card className="relative z-10 mx-4 w-full max-w-[500px] overflow-visible">
+      <h2 className="absolute -top-8 text-xl md:-top-10 md:text-4xl text-muted-foreground font-extrabold">
         {year}
-      </h1>
-      <h1 className="font-semibold text-xl">{title}</h1>
-      <a href={companyLink} className="text-gray-500">
-        {company}
-      </a>
-      <p className="text-gray-400 my-2">{desc}</p>
-    </div>
+      </h2>
+
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+        <Link
+          href={companyLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-muted-foreground hover:underline"
+        >
+          {company}
+        </Link>
+      </CardHeader>
+      <CardContent>
+        <p className="text-muted-foreground">{desc}</p>
+      </CardContent>
+    </Card>
   );
 };

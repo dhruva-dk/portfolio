@@ -7,14 +7,12 @@ const About = () => {
   return (
     <section>
       <div className="max-w-6xl mx-auto mt-16 md:mt-60">
-        <div className="container">
-          <h1 className="text-5xl md:text-9xl font-bold text-center md:text-left">
-            About Me
-          </h1>
-        </div>
+        <h1 className="text-5xl md:text-9xl font-bold text-center md:text-left">
+          About Me
+        </h1>
       </div>
       <div className="bg-card -mt-6">
-        <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-5 md:gap-y-20 gap-x-20 px-8">
+        <div className="pt-20 grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-y-20 gap-x-20 px-8 mx-auto container">
           <div className="inline-flex flex-col">
             <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
               Links
