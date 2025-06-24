@@ -1,6 +1,6 @@
-import React from 'react';
-import userData from '@/constants/user';
-import { ExperienceCard } from '@/components/experience/ExperienceCard';
+import React from "react";
+import userData from "@/constants/user";
+import { ExperienceCard } from "@/components/experience/ExperienceCard";
 
 const Experience = () => {
   return (
@@ -16,7 +16,7 @@ const Experience = () => {
         <div className="container flex items-center py-20">
           <div className="flex flex-col items-center gap-4 w-[100%]">
             {userData.experience.map((exp, idx) => (
-              <>
+              <React.Fragment key={idx}>
                 <ExperienceCard
                   key={idx}
                   title={exp.title}
@@ -27,13 +27,13 @@ const Experience = () => {
                 />
                 {idx === userData.experience.length - 1 ? null : (
                   <div className="divider-container flex flex-col items-center -mt-2">
-                    <div className="w-4 h-4 bg-blue-500 rounded-full  z-10">
-                      <div className="w-4 h-4 bg-blue-500 rounded-full z-10 animate-ping"></div>
+                    <div className="w-4 h-4 bg-black dark:bg-white rounded-full  z-10">
+                      <div className="w-4 h-4 bg-black dark:bg-white rounded-full z-10 animate-ping"></div>
                     </div>
                     <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
                   </div>
                 )}
-              </>
+              </React.Fragment>
             ))}
           </div>
         </div>
