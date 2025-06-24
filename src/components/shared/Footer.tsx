@@ -1,5 +1,5 @@
-import React from 'react';
-import userData from '@/constants/user';
+import React from "react";
+import userData from "@/constants/user";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex-grow" />
         <div className="w-1/4 flex justify-end space-x-4">
           <a
-            href={userData.socialLinks.linkedin}
+            href={userData.info.socialLinks.linkedin}
             className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
             aria-label="LinkedIn"
           >
@@ -27,7 +27,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href={userData.socialLinks.github}
+            href={userData.info.socialLinks.github}
             className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
             aria-label="GitHub"
           >
