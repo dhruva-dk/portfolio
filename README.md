@@ -1,14 +1,12 @@
 # dhruva-kumar.com - Portfolio Site
 
-## Image
-
-![image](https://github.com/user-attachments/assets/0e0b8340-c08a-421f-b55f-95fd47544753)
-
 ## About
 
 My (Dhruva Kumar's) Portfolio site developed with React and Next.js. It serves as a hub for my coding and photography projects.
 
-## Usage
+[View at dhruva-kumar.com](https://dhruva-kumar.com)
+
+## Development
 
 First, run the development server:
 
@@ -23,3 +21,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to view.
+
+## Acknowledgements
+
+Special thanks to [Shadcn UI](https://ui.shadcn.com/) and [Tweakcn](https://tweakcn.com/) for UI components and theming respectively.
