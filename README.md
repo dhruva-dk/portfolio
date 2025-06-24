@@ -21,3 +21,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to view.
+
+## Acknowledgements
+
+Special thanks to [Shadcn UI](https://ui.shadcn.com/) and [Tweakcn](https://tweakcn.com/) for UI components and theming respectively.
