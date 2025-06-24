@@ -22,10 +22,10 @@ const Experience = () => {
             />
             {idx === userData.experience.length - 1 ? null : (
               <div className="divider-container flex flex-col items-center -mt-2">
-                <div className="w-4 h-4 bg-black dark:bg-white rounded-full z-10">
-                  <div className="w-4 h-4 bg-black dark:bg-white rounded-full z-10 animate-ping"></div>
+                <div className="w-4 h-4 bg-foreground rounded-full z-10">
+                  <div className="w-4 h-4 bg-foreground rounded-full z-10 animate-ping"></div>
                 </div>
-                <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
+                <div className="w-1 h-24 bg-secondary rounded-full -mt-2"></div>
               </div>
             )}
           </React.Fragment>

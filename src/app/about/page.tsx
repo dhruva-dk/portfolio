@@ -13,9 +13,7 @@ const About = () => {
       </div>
       <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-y-20 gap-x-20 mx-auto">
         <div className="inline-flex flex-col">
-          <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-            Links
-          </h1>
+          <h1 className="text-xl font-semibold">Links</h1>
           <div className="mt-4 ml-4">
             <AboutLink href={`mailto:${userData.info.email}`}>Email</AboutLink>
             <AboutLink href={userData.info.resumeUrl} download target="_blank">
@@ -31,10 +29,7 @@ const About = () => {
         </div>
         <div className="col-span-1 md:col-span-2">
           {userData.about.description?.map((desc, idx) => (
-            <p
-              key={idx}
-              className="text-xl text-gray-700 mb-4 dark:text-gray-300"
-            >
+            <p key={idx} className="text-xl text-muted-foreground">
               {desc}
             </p>
           ))}
