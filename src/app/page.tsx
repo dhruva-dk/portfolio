@@ -3,19 +3,19 @@ import userData from "@/constants/user";
 
 export default function Home() {
   return (
-    <main className="container">
-      <section className="w-full py-12 md:py-24 px-4 md:px-8 text-center flex-col">
-        <div className="flex flex-wrap justify-center items-center text-center py-4">
-          <h1 className="mr-2 text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl">
-            The Intersection of Code and Capture.
-          </h1>
+    <main>
+      <section className="container">
+        <div className="w-full py-12 md:py-20 text-center flex-col">
+          <div className="flex flex-wrap justify-center items-center text-center py-4">
+            <h1 className="mr-2 text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl">
+              The Intersection of Code and Capture.
+            </h1>
+          </div>
+          <p className="mx-auto text-muted-foreground text-xl md:text-2xl">
+            {userData.home.heroText}
+          </p>
         </div>
-        <p className="mx-auto text-muted-foreground text-xl md:text-2xl">
-          {userData.home.heroText}
-        </p>
-      </section>
-      <div className="text-foreground p-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-20">
           <HomeCard
             title="Experience"
             description="View the timeline of my professional and academic career."
@@ -41,7 +41,7 @@ export default function Home() {
             href="/about"
           />
         </div>
-      </div>
+      </section>
     </main>
   );
 }

@@ -12,7 +12,7 @@ const Projects = () => {
           Projects
         </h1>
       </div>
-      <div className="bg-card -mt-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
+      <div className="py-20 grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
         {userData.projects.map((project, idx) => (
           <ProjectCard
             key={idx}

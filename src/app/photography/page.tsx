@@ -10,7 +10,7 @@ const Photography = () => {
           Photography
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 py-20 gap-2 bg-card -mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 py-20 gap-2">
         {[...Array(10)].map((x, i) => (
           <div
             key={i}

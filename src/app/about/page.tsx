@@ -11,7 +11,7 @@ const About = () => {
           About Me
         </h1>
       </div>
-      <div className="bg-card -mt-6 pt-20 grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-y-20 gap-x-20 px-8 mx-auto">
+      <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-y-20 gap-x-20 mx-auto">
         <div className="inline-flex flex-col">
           <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
             Links

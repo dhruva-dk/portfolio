@@ -10,7 +10,7 @@ const Experience = () => {
           Experience
         </h1>
       </div>
-      <div className="bg-card -mt-6 py-20 flex flex-col items-center gap-4">
+      <div className=" py-20 flex flex-col items-center gap-4">
         {userData.experience.map((exp, idx) => (
           <React.Fragment key={idx}>
             <ExperienceCard
